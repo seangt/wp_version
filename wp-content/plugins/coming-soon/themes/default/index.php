@@ -26,8 +26,9 @@
 	 width="960px" height="560px" viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
 <style type="text/css">
 
-	.st0{fill:none;stroke:white;stroke-width:3;stroke-miterlimit:10;stroke-dasharray: 1500; stroke-dashoffset: 1500; -webkit-animation: dash 10s linear forwards;}
+	.st0{fill:none;stroke:white;stroke-width:3;stroke-miterlimit:10;stroke-dasharray: 1500; stroke-dashoffset: 1500; -webkit-animation: dash 10s linear forwards; animation: dash 10s linear forwards;}
 	@-webkit-keyframes dash{from{stroke-dashoffset:1500;fill:none;}to{stroke-dashoffset:0;fill:white;stroke:none;}}
+	@keyframes dash{from{stroke-dashoffset:1500;fill:none;}to{stroke-dashoffset:0;fill:white;stroke:none;}}
 	
 
 </style>
