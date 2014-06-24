@@ -11,261 +11,79 @@
 		{CustomCSS}
 	</head>
 <body>
+	<style type="text/css">
+		svg {margin-left:auto; margin-right: auto; display: block; width:100%;max-height:600px; margin-bottom:0px;padding-bottom:0px;}
+	</style>
+<div class="wrap">
+	<div class="diamond">
 <div class="row">
 	<div class="col-md-12">
 <div id="seed-csp4-content">
 	{Logo}
 	{Headline}
-	hi lol
-	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
-<circle fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="115.5" cy="119.5" r="55.5"/>
-<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="284" cy="123" rx="69" ry="23"/>
-<rect x="403" y="71" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="98" height="97"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M672,158c0,5.523-4.477,10-10,10h-82
-    c-5.523,0-10-4.477-10-10V81c0-5.523,4.477-10,10-10h82c5.523,0,10,4.477,10,10V158z"/>
-<polyline fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="66,292 115.5,239 171,321 194,251 
-    236,280 268,251 318,291 343,239 368,275 "/>
-<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M452,293c0,0,0-61,72-44c0,0-47,117,81,57
-    s5-110,10-67s-51,77.979-50,33.989"/>
+
+<svg preserveAspectRatio="xMidYMin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="960px" height="560px" viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
+<style type="text/css">
+
+	.st0{fill:none;stroke:white;stroke-width:3;stroke-miterlimit:10;stroke-dasharray: 1500; stroke-dashoffset: 1500; -webkit-animation: dash 10s linear forwards;}
+	@-webkit-keyframes dash{from{stroke-dashoffset:1500;fill:none;}to{stroke-dashoffset:0;fill:white;stroke:none;}}
+	
+
+</style>
+
+<g>
+	
+	<polygon class="st0" points="736.05957,188.78125 756.73535,101.04492 694.24219,45.09766 606.58691,99.70508 	"/>
+	<polygon class="st0" points="860.69238,191.69043 765.5791,110.50195 745.51465,191.69043 	"/>
+	<polygon class="st0" points="675.24707,45.09766 501.02832,45.09766 597.33887,93.87891 	"/>
+	<polygon class="st0" points="496.39355,191.69043 723.24219,191.60938 597.81934,105.30664 	"/>
+	<polygon class="st0" points="99.18457,200.86133 343.09082,401.68457 213.80176,200.86133 	"/>
+	<polygon class="st0" points="226.1377,203.07812 366.33301,421.57227 466.5498,504.65137 423.08105,396.38574 	"/>
+	<polygon class="st0" points="424.89355,387.55469 470.17285,200.86133 236.07324,200.86133 	"/>
+	<polygon class="st0" points="353.29004,99.74414 265.63574,45.13672 203.14355,101.08398 223.81738,188.82031 	"/>
+	<polygon class="st0" points="194.2998,110.54297 99.18457,191.73047 214.36035,191.73047 	"/>
+	<polygon class="st0" points="458.85059,45.13672 284.62988,45.13672 362.53809,93.91797 	"/>
+	<polygon class="st0" points="537.1416,396.38574 493.6709,504.65137 593.88965,421.57227 734.08301,203.07812 	"/>
+	<polygon class="st0" points="479.61816,191.65039 587.87598,101.81836 479.35254,45.13672 370.83105,101.81836 	"/>
+	<polygon class="st0" points="479.96191,200.86133 431.83691,395.73242 480.1084,516.75391 526.57324,395.73242 	"/>
+	<polygon class="st0" points="535.3291,387.55469 724.14941,200.86133 490.0498,200.86133 	"/>
+	<polygon class="st0" points="236.63379,191.65039 463.48535,191.73047 362.05762,105.34766 	"/>
+	<polygon class="st0" points="616.78613,401.68457 860.69238,200.86133 746.07422,200.86133 	"/>
+	
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>
 
-<head>
-<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script><script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js'></script> 
-<script language="javascript"> 
-function SVG(tag) {
-    return document.createElementNS('http://www.w3.org/2000/svg', tag);
-}
-
-
-
-function replaceRectsWithPaths(parentElement) {
-
-
-    var rects = $(parentElement).find('rect');
-
-    $.each(rects, function() {
-
-        var rectX = $(this).attr('x');
-        var rectY = $(this).attr('y');
-
-        var rectX2 = parseFloat(rectX) + parseFloat($(this).attr('width'));
-        var rectY2 = parseFloat(rectY) + parseFloat($(this).attr('height'));
-
-        var convertedPath = 'M' + rectX + ',' + rectY + ' ' + rectX2 + ',' + rectY + ' ' + rectX2 + ',' + rectY2 + ' ' + rectX + ',' + rectY2 + ' ' + rectX + ',' + rectY;
-
-
-        $(SVG('path'))
-        .attr('d', convertedPath)
-        .attr('fill', $(this).attr('fill'))
-        .attr('stroke', $(this).attr('stroke'))
-        .attr('stroke-width', $(this).attr('stroke-width'))
-        .insertAfter(this);
-
-    });
-
-    $(rects).remove();
-}
-
-
-
-function replaceLinesWithPaths(parentElement) {
-
-
-    var lines = $(parentElement).find('line');
-
-    $.each(lines, function() {
-
-        var lineX1 = $(this).attr('x1');
-        var lineY1 = $(this).attr('y1');
-
-        var lineX2 = $(this).attr('x2');
-        var lineY2 = $(this).attr('y2');
-
-        var convertedPath = 'M' + lineX1 + ',' + lineY1 + ' ' + lineX2 + ',' + lineY2;
-
-
-        $(SVG('path'))
-        .attr('d', convertedPath)
-        .attr('fill', $(this).attr('fill'))
-        .attr('stroke', $(this).attr('stroke'))
-        .attr('stroke-width', $(this).attr('stroke-width'))
-        .insertAfter(this);
-
-    });
-
-    $(lines).remove();
-}
-
-
-
-function replaceCirclesWithPaths(parentElement) {
-
-    var circles = $(parentElement).find('circle');
-
-    $.each(circles, function() {
-
-        var cX = $(this).attr('cx');
-        var cY = $(this).attr('cy');
-        var r = $(this).attr('r');
-        var r2 = parseFloat(r * 2);
-
-        var convertedPath = 'M' + cX + ', ' + cY + ' m' + (-r) + ', 0 ' + 'a ' + r + ', ' + r + ' 0 1,0 ' + r2 + ',0 ' + 'a ' + r + ', ' + r + ' 0 1,0 ' + (-r2) + ',0 ';
-
-        $(SVG('path'))
-        .attr('d', convertedPath)
-        .attr('fill', $(this).attr('fill'))
-        .attr('stroke', $(this).attr('stroke'))
-        .attr('stroke-width', $(this).attr('stroke-width'))
-        .insertAfter(this);
-
-    });
-
-    $(circles).remove();
-}
-
-
-
-function replaceEllipsesWithPaths(parentElement) {
-
-
-    var ellipses = $(parentElement).find('ellipse');
-
-    $.each(ellipses, function() {
-
-        var cX = $(this).attr('cx');
-        var cY = $(this).attr('cy');
-        var rX = $(this).attr('rx');
-        var rY = $(this).attr('ry');
-
-        var convertedPath = 'M' + cX + ', ' + cY + ' m' + (-rX) + ', 0 ' + 'a ' + rX + ', ' + rY + ' 0 1,0 ' + rX*2 + ',0 ' + 'a ' + rX + ', ' + rY + ' 0 1,0 ' + (-rX*2) + ',0 ';
-
-        $(SVG('path'))
-        .attr('d', convertedPath)
-        .attr('fill', $(this).attr('fill'))
-        .attr('stroke', $(this).attr('stroke'))
-        .attr('stroke-width', $(this).attr('stroke-width'))
-        .insertAfter(this);
-
-    });
-
-    $(ellipses).remove();
-}
-
-
-
-
-function replacePolygonsWithPaths(parentElement) {
-
-
-    var polygons = $(parentElement).find('polygon');
-
-    $.each(polygons, function() {
-
-        var points = $(this).attr('points');
-        var polyPoints = points.split(/[ ,]+/);
-        var endPoint = polyPoints[0] + ', ' + polyPoints[1];
-
-        $(SVG('path'))
-        .attr('d', 'M' + points + ' ' + endPoint)
-        .attr('fill', $(this).attr('fill'))
-        .attr('stroke', $(this).attr('stroke'))
-        .attr('stroke-width', $(this).attr('stroke-width'))
-        .insertAfter(this);
-
-    });
-
-    $(polygons).remove();
-}
-
-
-
-
-function replacePolylinesWithPaths(parentElement) {
-
-
-    var polylines = $(parentElement).find('polyline');
-
-    $.each(polylines, function() {
-
-        var points = $(this).attr('points');
-
-        $(SVG('path'))
-        .attr('d', 'M' + points)
-        .attr('fill', $(this).attr('fill'))
-        .attr('stroke', $(this).attr('stroke'))
-        .attr('stroke-width', $(this).attr('stroke-width'))
-        .insertAfter(this);
-
-    });
-
-    $(polylines).remove();
-}
-
-function hideSVGPaths(parentElement) {
-
-    var paths = $(parentElement).find('path');
-
-    //for each PATH..
-    $.each( paths, function() {
-
-        //get the total length
-        var totalLength = this.getTotalLength();
-
-        //set PATHs to invisible
-        $(this).css({
-            'stroke-dashoffset': totalLength,
-            'stroke-dasharray': totalLength + ' ' + totalLength
-        });
-    });
-}
-
-function drawSVGPaths(_parentElement, _timeMin, _timeMax, _timeDelay) {
-
-
-    var paths = $(_parentElement).find('path');
-
-    //for each PATH..
-    $.each( paths, function(i) {
-
-        //get the total length
-        var totalLength = this.getTotalLength();
-
-
-        //set PATHs to invisible
-        $(this).css({
-            'stroke-dashoffset': totalLength,
-            'stroke-dasharray': totalLength + ' ' + totalLength
-        });
-
-        //animate
-        $(this).delay(_timeDelay*i).animate({
-            'stroke-dashoffset': 0
-        }, {
-            duration: Math.floor(Math.random() * _timeMax) + _timeMin
-            ,easing: 'easeInOutQuad'
-        });
-    });
-}
-
-function replaceWithPaths(parentElement) {
-
-    replaceRectsWithPaths(parentElement);
-    replaceLinesWithPaths(parentElement);
-    replaceEllipsesWithPaths(parentElement);
-    replaceCirclesWithPaths(parentElement);
-    replacePolygonsWithPaths(parentElement);
-    replacePolylinesWithPaths(parentElement);    
-}
-
-function startSVGAnimation(parentElement) {
-    drawSVGPaths(parentElement, 1000, 2000, 50);
-}
-
-replaceWithPaths($('svg'));
-startSVGAnimation($('svg'));
-</script> 
-</head> 
 	{Description}
 </div><!-- / #seed-csp4-content -->
 </div></div>
@@ -273,4 +91,6 @@ startSVGAnimation($('svg'));
 
 {Footer}
 </body>
+</div>
+	</div>
 </html>
