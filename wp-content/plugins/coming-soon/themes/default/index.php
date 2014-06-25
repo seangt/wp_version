@@ -12,7 +12,7 @@
 	</head>
 <body>
 	<style type="text/css">
-		svg {margin-left:auto; margin-right: auto; display: block; width:100%;max-height:600px; margin-bottom:0px;padding-bottom:0px;}
+		svg {margin-left:auto; margin-right: auto; display: block; width:100%;max-height:600px;  margin-bottom:0px; padding-bottom:0px;}
 	</style>
 <div class="wrap">
 	<div class="diamond">
@@ -26,9 +26,10 @@
 	 width="960px" height="560px" viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
 <style type="text/css">
 
-	.st0{fill:none;stroke:white;stroke-width:3;stroke-miterlimit:10;stroke-dasharray: 1500; stroke-dashoffset: 1500; -webkit-animation: dash 10s linear forwards; animation: dash 10s linear forwards;}
-	@-webkit-keyframes dash{from{stroke-dashoffset:1500;fill:none;}to{stroke-dashoffset:0;fill:white;stroke:none;}}
-	@keyframes dash{from{stroke-dashoffset:1500;fill:none;}to{stroke-dashoffset:0;fill:white;stroke:none;}}
+	.st0{fill:none;stroke:white;stroke-width:3;stroke-miterlimit:10;stroke-dasharray: 1500; stroke-dashoffset: 1500; -webkit-animation: dash 10s linear forwards; animation: dash 10s linear forwards; -moz-animation: dash 10s linear forwards;}
+	@-webkit-keyframes dash{from{stroke-dashoffset:1500;fill:none; stroke:white;}to{stroke-dashoffset:0;fill:white;stroke:none;}}
+	@keyframes dash{from{stroke-dashoffset:1500; fill:none; stroke:white;}to{stroke-dashoffset:0; fill:white; stroke:none;}}
+	@-moz-keyframes dash{from{stroke-dashoffset:1500;fill:none; stroke:white;}to{stroke-dashoffset:0;fill:white; stroke:none;}}
 	
 
 </style>

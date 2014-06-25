@@ -74,14 +74,21 @@ a:visited
 /* Styles that affect the entire layout of the page */
 div#container
 {
-	margin: 4px 4px 4px 4px;
+	margin: 0px;
 }
 div#content
 {
-	
+	padding:4px 4px 4px 4px;
 }
 
+.work-page{
+	background:grey;
+}
 
+div.work-page .entry-title{
+	background:green;
+	
+}
 /*** HEADER : MENU ***/
 
 /* To see a menu in your header, you'll need to first add one in WordPress Admin */
